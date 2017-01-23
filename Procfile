@@ -1,1 +1,1 @@
-web: node app.js
+web: npm install mathsteps; node app.js
