@@ -1,0 +1,65 @@
+{
+  "name": "mathsteps",
+  "version": "0.1.3",
+  "description": "Step by step math solutions",
+  "main": "index.js",
+  "dependencies": {
+    "mathjs": "3.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-config-google": "^0.7.0",
+    "mocha": "2.4.5"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socraticorg/mathsteps.git"
+  },
+  "keywords": [
+    "math",
+    "steps",
+    "algebra",
+    "cas",
+    "computer",
+    "algebra",
+    "system"
+  ],
+  "author": {
+    "name": "Evy Kassirer"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/socraticorg/mathsteps/issues"
+  },
+  "homepage": "https://github.com/socraticorg/mathsteps#readme",
+  "gitHead": "604fd16326a40eaa00eb54d1483bd1f4e41a985f",
+  "_id": "mathsteps@0.1.3",
+  "_shasum": "c68e7432e64d4fd3fa9bf7cf532042a4c8930896",
+  "_from": "mathsteps@*",
+  "_npmVersion": "3.10.3",
+  "_nodeVersion": "6.5.0",
+  "_npmUser": {
+    "name": "socratic",
+    "email": "mathsteps@socratic.org"
+  },
+  "dist": {
+    "shasum": "c68e7432e64d4fd3fa9bf7cf532042a4c8930896",
+    "tarball": "https://registry.npmjs.org/mathsteps/-/mathsteps-0.1.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "socratic",
+      "email": "mathsteps@socratic.org"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/mathsteps-0.1.3.tgz_1484676569997_0.3459258845541626"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/mathsteps/-/mathsteps-0.1.3.tgz"
+}
