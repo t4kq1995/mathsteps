@@ -1,4 +1,3 @@
-const PORT = 5000;
 var http = require('http');
 
 http.createServer(function (request, response) {
@@ -33,8 +32,8 @@ http.createServer(function (request, response) {
     	response.writeHead(400, {'Content-Type': 'application/json'});
     	response.end(JSON.stringify({ answer: 'We need POST request' }));
     }
-}).listen(PORT);
+}).listen(process.env.PORT || 5000);
 
-console.log('Server running at http://127.0.0.1:' + PORT + '/');
+console.log('Server running');
 
 
